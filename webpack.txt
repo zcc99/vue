@@ -1,0 +1,84 @@
+生成json
+	npm init -y
+
+生成jQuery
+	npm i jquery -S
+
+生成js文件
+	因为webpack版本过高所以必须加上--output
+	mode：告诉程序，在当前目录，我是属于开发状态development
+	webpack ./src/main.js --output ./dist/bundle.js --mode development
+
+webpack.config.js
+	webpack --mode development
+
+
+npm i chromedriver生成依赖
+
+npm run dev
+
+ctrl+c停止webpack-dev-server
+
+webpack-dev-server
+
+npm link webpack --save-dev
+
+npm install webpack-cli -g
+//卸载版本
+
+npm uninstall webpack -g
+npm uninstall -g webpack-dev-server
+
+
+//安装指定版本
+
+npm install webpack@3.8.0 --save-dev
+
+npm install webpack-dev-server@2.9.7 --save-dev
+
+npm i html-webpack-plugin -D
+
+处理css文件(less,scss(scss))
+npm install style-loader --save-dev
+npm install stylus-loader css-loader style-loader --save-dev
+npm install style-loader css-loader style-loader --save-dev
+npm i style-loder css-loder -D
+npm install --save-dev less-loader
+npm install less less-loader --save-dev
+npm install less --save-dev
+npm install node-sass --save-dev
+npm install sass --save-dev
+
+npm i vue -S
+
+url路径
+
+npm i url-loader file-loader -D
+
+npm i bootstrap -S
+npm i bootstrap@3
+
+通过两套包来安装Babel相关的loader功能
+第一套：npm i babel-core babel-loader babel-plugin-transform-runtime -D
+第二套：npm i babel-preset-env babel-preset-stage-0 -D
+npm i babel-loader@7.1.5 -D
+
+npm install vue-loader vue-template-compiler -D
+
+npm i vue-router -S
+
+npm install mint-ui -S
+
+
+git init
+git status
+git add .
+git commit -m "init my project"
+
+git remote add origin git@gitee.com:zcc889/vue.git
+
+git push -u origin master
+
+
+
+	
